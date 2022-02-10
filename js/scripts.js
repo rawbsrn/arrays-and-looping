@@ -17,15 +17,18 @@ function beepBooper(number){
     returnArr.push(i)}
 
   }
-  return returnArr
+  const returnString=returnArr.join(', ')
+  return returnString
 
 }
 
 //ui logic
 
 $(document).ready(function(){
-  event.preventDefault();
-  const passage = $("#text-passage").val();
-  const wordCount = beepBooper(passage);
-  $("#total-count").html(wordCount);
-})
+  $("form#number-counter").submit(function(event){
+    event.preventDefault();
+    const passage = $("#number-passage").val();
+    const numberCount = beepBooper(passage);
+    $("#total-count").html(numberCount);
+  });
+});
