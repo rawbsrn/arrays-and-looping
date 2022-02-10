@@ -16,7 +16,10 @@ Test: If a Number contains a "2", it will be replaced with "Boop!"
 Code: beepBooper(2)
 ExpectedOutput:"Boop!"
 
-
 Test: If a Number contains a "3", it will be replaced with "Won't you be my neighbor?"
 Code: beepBooper(3)
 ExpectedOutput:"Won't you be my neighbor?"
+
+Test: If a Number contains a "3", it will show a image of mr. Rogers"
+Code: beepBooper(3)
+ExpectedOutput:(picture goes here)
