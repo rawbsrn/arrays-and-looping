@@ -30,5 +30,6 @@ $(document).ready(function(){
     const passage = $("#number-passage").val();
     const numberCount = beepBooper(passage);
     $("#total-count").html(numberCount);
+    $(".rogers-showing").toggle();
   });
 });
