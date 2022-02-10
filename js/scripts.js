@@ -1,5 +1,4 @@
 //business logic
-
 function beepBooper(number){
   count = number.replace(/[\D]/gi, "");
   console.log(count)
@@ -15,15 +14,11 @@ function beepBooper(number){
       returnArr.push("Beep!")
     } else {
     returnArr.push(i)}
-
   }
   const returnString=returnArr.join(', ')
   return returnString
-
 }
-
 //ui logic
-
 $(document).ready(function(){
   $("form#number-counter").submit(function(event){
     event.preventDefault();
