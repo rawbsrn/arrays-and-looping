@@ -45,9 +45,13 @@ Test: If a Number contains a "3", it will be replaced with "Won't you be my neig
 Code: beepBooper(3)
 ExpectedOutput:"Won't you be my neighbor?"
 
-Test: If a Number contains a "3", it will show a image of mr. Rogers"
+Test: If a Number contains a "3", it will show a image of mr. Rogers
 Code: beepBooper(3)
 ExpectedOutput:(picture goes here)
+
+Test: It will return an array of numbers from 0 to the users inputted number, replacing "1" with "Beep!", "2" with "Boop!", and "3" with "Won't you be my neighbor?"
+Code: beepBooper(4)
+ExpectedOutput: "0, Beep!, Boop!, Won't you be my neighbor?, 4"
 
 Describe: countDown()
 
@@ -74,6 +78,10 @@ ExpectedOutput:"Won't you be my neighbor?"
 Test: If a Number contains a "3", it will show a image of mr. Rogers"
 Code: countDown(3)
 ExpectedOutput:(picture goes here)
+
+Test: It will return an array of numbers from users inputted number to the 0, replacing "1" with "Beep!", "2" with "Boop!", and "3" with "Won't you be my neighbor?"
+Code: countDown(4)
+ExpectedOutput:"4, Won't you be my neighbor?, Boop!, Beep!, 0"
 
 ## Known Bugs
 
