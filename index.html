@@ -10,17 +10,19 @@
 <body>
   <div class="container">
       <h2>Beep Booper</h2>
-    <form id="number-counter">
-      <div class="form-group">
+      <div class="number-counter-up">
         <p>Input a number to get a secret message :</p>
         <textarea id="number-passage" name="number-passage" class="form-control"></textarea>
-        
-        <button type="submit" class="btn btn-success">Get message</button>
+        <button class="btn btn-success">Count Up</button>
       </div>
-    </form>
+
+      <div class="number-counter-down">
+        <button class="btn btn-danger">Count Down</button>
+      </div>
+
     <p>Secret message: <span id="total-count"></span></p>
     <div class="rogers-showing">
-      <img src="img/Fred_Rogers,_late_1960s.jpg" alt="display mr. Rogers image on button click" class="img-responsive img-thumbnail"/>
+      <img src="img/Fred_Rogers,_late_1960s.jpg" alt="display mr. Rogers image on button click" class="img-thumbnail"/>
     </div>
   </div>
 </body>

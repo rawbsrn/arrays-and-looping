@@ -49,6 +49,32 @@ Test: If a Number contains a "3", it will show a image of mr. Rogers"
 Code: beepBooper(3)
 ExpectedOutput:(picture goes here)
 
+Describe: countDown()
+
+Test: "It should return an array of numbers from the user's inputted number to 0"
+Code: countDown(4)
+ExpectedOutput: [4,3,2,1,0]
+
+Test: It will exluclude any input that is not a number"
+Code: countDown(a)
+ExpectedOutput: ""
+
+Test: If a Number contains a "1", it will be replaced with "Beep!"
+Code: countDown(1)
+ExpectedOutput:"Beep!"
+
+Test: If a Number contains a "2", it will be replaced with "Boop!"
+Code: countDown(2)
+ExpectedOutput:"Boop!"
+
+Test: If a Number contains a "3", it will be replaced with "Won't you be my neighbor?"
+Code: countDown(3)
+ExpectedOutput:"Won't you be my neighbor?"
+
+Test: If a Number contains a "3", it will show a image of mr. Rogers"
+Code: countDown(3)
+ExpectedOutput:(picture goes here)
+
 ## Known Bugs
 
 * Please report any issues to Rob . Sameh @ gmail {dot} com
